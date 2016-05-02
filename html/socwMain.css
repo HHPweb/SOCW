@@ -1,0 +1,242 @@
+a {
+	font-weight: bold;
+}
+#hhpCenter {
+	padding: 3px;
+}
+
+.mainCnt {
+	padding: 10px;
+	clear: both;
+	overflow: hidden;
+}
+.mainCnt img {
+	padding: 5px;
+}
+.profileImg {
+	float:left;
+	max-width: 100%;
+	height: auto;
+}
+.interests {
+	clear: both;
+}
+
+.noBullet ul {
+	list-style-type: none;
+}
+
+.HHPheadTxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0 0 3px 0;
+}
+.goldHead {
+	background-color: #fec923;
+	padding: 5px;
+}
+
+.hhpLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px;
+	margin-left: 15px;
+	padding: 0;
+}
+
+.headerTop {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 0px;
+	padding: 0 0 3px 15px;
+	background-color: #fec923;
+}
+.cntHeading {
+	
+}
+.contentHeading {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.span4.multiColumn {
+	background-color: #fec923;
+	/* SVG as background image (IE9) */ 
+	background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc2NyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0ZFQzkyMyIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGRkZGRiIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzY3KSIgLz4KPC9zdmc+);
+	background: linear-gradient(#fec923,#fff);  /*Standard syntax */
+	background: -webkit-linear-gradient(#fec923,#fff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fec923,#fff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fec923,#fff); /* For Firefox 3.6 to 15 */
+	background-image: -ms-linear-gradient(top, #fec923 0%, #ffffff 100%);/* IE10 */
+}
+
+#tabs {
+	font-size: 12px;
+}
+
+.AccordionPanelContent {
+	display: none;
+}
+
+.AccordionPanel {
+	border: 1px solid;
+	padding: 6px;
+}
+
+.AccordionPanelTab {
+	padding: 6px;
+	color: #592a8a;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*==============================================================================
+SOCW specific stuff
+==============================================================================*/
+.noDots li {
+	list-style-type: none;
+}
+
+.idmr-right {
+	padding: 5px;
+}
+
+.homeIcons img {
+	float: left;
+}
+
+.iconDiv {
+	width: 350px;
+	margin: 15px auto;
+}
+
+.alumni img {
+	float: left;
+	width: 200px;
+}
+
+.pnlRt {
+	margin-left: 125px;
+}
+
+#tabs {
+	font-size: 12px;
+}
+
+.fall {
+	width: 45%;
+	float: left;
+}
+
+.spring {
+	width: 45%;
+	float: right;
+}
+
+.left {
+	float: left;
+	width: 80%;
+}
+
+.right {
+	float: right;
+	width: 15%;
+}
+
+.fac img {
+	float: left;
+	width: 125px;
+}
+.fac p {
+	float: left;
+	width: 450px;
+}
+.fac {
+	overflow: hidden;
+	clear: both;
+}
+
+/*---- CROSS BROWSER DROPDOWN MENU ----*/
+#nav {
+	clear: both;
+}
+ul#nav {
+	margin: 0;
+}
+ul.drop a { 
+	display:block; 
+	/*color: #fff; 
+	font-family: Verdana; 
+	font-size: 11px; */
+	text-decoration: none
+}
+ul.drop, ul.drop li, ul.drop ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	/*border: 1px solid #fff; 
+	background: #555; */
+	/*color: #fff;*/
+}
+ul.drop { 
+	position: relative; 
+	z-index: 7; 
+	float: left; 
+}
+ul.drop li { 
+	float: left; 
+	line-height: 1.3em; 
+	vertical-align: middle; 
+	
+	padding: 0 10px; 
+}
+ul.drop li.hover, ul.drop li:hover { 
+	position: relative; 
+	z-index: 9; 
+	cursor: default; 
+	background: #E2E2E2;
+	text-decoration: underline;
+}
+ul.drop ul { 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	z-index: 8; 
+	width: 195px; 
+	background: #E2E2E2; 
+	border: 1px solid #E2E2E2;
+	
+	 
+}
+ul.drop ul li { 
+	float: none;
+	padding: 6px 10px;
+	text-align: left; 
+}
+ul.drop ul ul { 
+	top: -2px; 
+	left: 100%; 
+}
+ul.drop li:hover > ul { 
+	visibility: visible;
+}
+
+
+
+
