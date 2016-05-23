@@ -56,7 +56,7 @@ a {
 	background-color: #fec923;
 }
 .cntHeading {
-	
+
 }
 .contentHeading {
 	padding-top: 0;
@@ -65,7 +65,7 @@ a {
 
 .span4.multiColumn {
 	background-color: #fec923;
-	/* SVG as background image (IE9) */ 
+	/* SVG as background image (IE9) */
 	background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc2NyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0ZFQzkyMyIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGRkZGRiIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzY3KSIgLz4KPC9zdmc+);
 	background: linear-gradient(#fec923,#fff);  /*Standard syntax */
 	background: -webkit-linear-gradient(#fec923,#fff); /* For Safari 5.1 to 6.0 */
@@ -104,6 +104,10 @@ a {
     clear: both;
 }
 
+.noBullet li {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
 
 /*==============================================================================
 SOCW specific stuff
@@ -121,7 +125,7 @@ SOCW specific stuff
 }
 
 .iconDiv {
-	width: 350px;
+	width: 450px;
 	margin: 15px auto;
 }
 
@@ -178,65 +182,61 @@ SOCW specific stuff
 ul#nav {
 	margin: 0;
 }
-ul.drop a { 
-	display:block; 
-	/*color: #fff; 
-	font-family: Verdana; 
+ul.drop a {
+	display:block;
+	/*color: #fff;
+	font-family: Verdana;
 	font-size: 11px; */
 	text-decoration: none
 }
-ul.drop, ul.drop li, ul.drop ul { 
-	list-style: none; 
-	margin: 0; 
-	padding: 0; 
-	/*border: 1px solid #fff; 
+ul.drop, ul.drop li, ul.drop ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid #fff;
 	background: #555; */
 	/*color: #fff;*/
 }
-ul.drop { 
-	position: relative; 
-	z-index: 7; 
-	float: left; 
+ul.drop {
+	position: relative;
+	z-index: 7;
+	float: left;
 }
-ul.drop li { 
-	float: left; 
-	line-height: 1.3em; 
-	vertical-align: middle; 
-	
-	padding: 0 10px; 
+ul.drop li {
+	float: left;
+	line-height: 1.3em;
+	vertical-align: middle;
+
+	padding: 0 10px;
 }
-ul.drop li.hover, ul.drop li:hover { 
-	position: relative; 
-	z-index: 9; 
-	cursor: default; 
+ul.drop li.hover, ul.drop li:hover {
+	position: relative;
+	z-index: 9;
+	cursor: default;
 	background: #E2E2E2;
 	text-decoration: underline;
 }
-ul.drop ul { 
-	visibility: hidden; 
-	position: absolute; 
-	top: 100%; 
-	left: 0; 
-	z-index: 8; 
-	width: 195px; 
-	background: #E2E2E2; 
+ul.drop ul {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 8;
+	width: 195px;
+	background: #E2E2E2;
 	border: 1px solid #E2E2E2;
-	
-	 
+
+
 }
-ul.drop ul li { 
+ul.drop ul li {
 	float: none;
 	padding: 6px 10px;
-	text-align: left; 
+	text-align: left;
 }
-ul.drop ul ul { 
-	top: -2px; 
-	left: 100%; 
+ul.drop ul ul {
+	top: -2px;
+	left: 100%;
 }
-ul.drop li:hover > ul { 
+ul.drop li:hover > ul {
 	visibility: visible;
 }
-
-
-
-
